@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie rating maker!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <h2>Make Your Personal Movie Rating!</h2>
+        <hr>
+
+        <div id="main">
+            <form action="" id="submitTheButton">
+                <div id="section">
+                    <label for="cast">1. Cast: </label>
+                    <input placeholder="10/10" type="text" name="cast" id="cast">
+                    <small id="castErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="story">2. Story: </label>
+                    <input placeholder="10/10" type="text" name="story" id="story"><small id="storyErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="location">3. Location: </label>
+                    <input placeholder="10/10" type="text" nsectioname="location" id="location"><small
+                        id="locationErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="dialogue">4. Dialogue: </label>
+                    <input placeholder="10/10" type="text" name="dialogue" id="dialogue"><small id="dialogueErr"></small>
+                </div>
+
+
+                <div id="section">
+                    <label for="action">5. Action: </label>
+                    <input placeholder="10/10" type="text" name="action" id="action"><small id="actionErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="graphic">6. Graphic: </label>
+                    <input placeholder="10/10" type="text" name="graphic" id="graphic"><small id="graphicErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="raomaintic">7. Romaintic: </label>
+                    <input placeholder="10/10" type="text" name="raomaintic" id="raomaintic"><small
+                        id="raomainticErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="backMusic">8. Background Sound: </label>
+                    <input placeholder="10/10" type="text" name="backMusic" id="backMusic"><small
+                        id="backMusicErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="videoGraphice">9. Video Graphic: </label>
+                    <input placeholder="10/10" type="text" name="videoGraphice" id="videoGraphice"><small
+                        id="videoGraphiceErr"></small>
+                </div>
+
+                <div id="section">
+                    <label for="sideCast">10. Side Cast: </label>
+                    <input placeholder="10/10" type="text" name="sideCast" id="sideCast"><small
+                        id="sideCastErr"></small>
+                </div>
+
+                <i id="iTag" class=""></i>
+
+                <div id="messageBox"></div>
+
+                <center>
+                    <button id="showButton">Show The Submit Button</button>
+                </center>
+
+                <button class="submit" type="submit"></button>
+               
+
+
+            </form>
+        </div>
+                <div id="display">
+                    <h3>Your own Rating is: </h3>
+                    <div id="box">
+                       <span id="rating"> </span>
+                    </div>
+                </div>
+
+                <button id="reset" type="reset">Re-load the page</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
