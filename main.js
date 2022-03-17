@@ -1,5 +1,4 @@
 
-
 let cast = document.getElementById("cast");
 let story = document.getElementById("story");
 let locationX = document.getElementById("location");
@@ -10,6 +9,7 @@ let raomaintic = document.getElementById("raomaintic");
 let backMusic = document.getElementById("backMusic");
 let videoGraphice = document.getElementById("videoGraphice");
 let sideCast = document.getElementById("sideCast");
+
 
 
 let iTag = document.getElementById('iTag');
@@ -319,7 +319,6 @@ submit.addEventListener('click', (e) => {
 //    sum = sum.toFixed(1);
     
     document.getElementById("rating").innerHTML = sum.toFixed(1);
-
     e.preventDefault();
 })
 
